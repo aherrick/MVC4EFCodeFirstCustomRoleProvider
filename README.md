@@ -1,0 +1,1 @@
+Code sample showing how to use ASP.NET MVC 4 with Entity Framework 5.0 Code First in a Users with Roles scenario. Utilizes custom Role Provider leaveraging ASP.NET Roles pipeline.

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h2>Welcome @User.Identity.Name!</h2>
+    <a href="/home/logoff">LogOff</a>
+}
+else
+{
+    <a href="/home/login">Login!</a>
+}
+
+
+<a href="/home/secure">Secure Section</a>
+
+
